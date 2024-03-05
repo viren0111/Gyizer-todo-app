@@ -1,0 +1,19 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  
+}
+.no-todos{
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+.todos-list{
+  width: 90%;
+  min-height: auto;
+  margin: 0px auto;
+  border: 1px solid #A35709;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+}

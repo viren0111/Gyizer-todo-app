@@ -1,0 +1,15 @@
+.Header{
+    width: 100%;
+    padding: 1rem 0px;
+    border: 1px solid #FF8303;
+    border-radius: 0px 0px 5px 5px;
+    background-color: #242320;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gyizer-container{
+    width: 90%;
+    margin: 0px auto;
+    color: #fff;
+}

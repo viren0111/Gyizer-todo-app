@@ -1,0 +1,47 @@
+.todo-item-one{
+    width: 100%;
+}
+.non-editable{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 2px;
+}
+.info img{
+    height: 70%;
+}
+.editable{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.edit-input{
+    width: 70%;
+}
+.editable input{
+    display: block;
+    width: 100%;
+}
+.edit-input input:last-child{
+    margin-top: 4px;
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .todo-item-one{
+        width: 90%;
+        margin: auto;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .todo-item-one{
+        width: 90% !important;
+        margin: auto;
+    }
+}
